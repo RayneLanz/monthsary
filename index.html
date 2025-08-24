@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To My Lovee ❤️</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+      <div class="loading-content">
+        <div class="heart-loader">
+          <i class="fas fa-heart"></i>
+        </div>
+        <h2 class="loading-text">Loading Love...</h2>
+        <div class="loading-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="main-content hidden">
+      <div class="floating-hearts">
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+      </div>
+
+      <div class="center-content">
+        <div class="heart-container">
+          <div class="pulse-heart" id="heart-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <p class="click-hint">Click the heart ❤️</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Audio Element for Background Music -->
+    <audio id="background-music" preload="auto">
+      <source src="assets/audio/AlwaysBeMyBaby.wav" type="audio/wav" />
+      <!-- You can replace the src with your preferred music file -->
+    </audio>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Happy Monthsary! 🎉</h2>
+          <button class="close-btn" id="close-modal">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="message-content">
+            <div class="heart-decoration">
+              <i class="fas fa-heart"></i>
+            </div>
+            <p class="love-message">
+              Another beautiful month with you has passed, and my love for you
+              grows stronger with each passing day. Thank you for being the
+              light in my life, for your beautiful smile that brightens my
+              darkest days, and for the love that makes every moment special.
+            </p>
+            <p class="love-message">
+              Here's to many more months of laughter, adventures, and endless
+              love together. You are my everything, and I'm so grateful to have
+              you in my life.
+            </p>
+            <p class="love-message">I Love you so much Myra Mae, My lovee</p>
+            <div class="signature">
+              <p>With all my love,</p>
+              <p class="signature-name">Forever Yours ❤️</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
